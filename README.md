@@ -1,5 +1,5 @@
 # FirstProject
 
-## Meu primeiro Projeto Angula seguindo as aulas do BootCamp Front-end Santander
+## Meu primeiro Projeto Angular seguindo as aulas do BootCamp Front-end Santander
 
 - Testando o Framework!
