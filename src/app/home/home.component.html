@@ -1,0 +1,18 @@
+<main>
+  <header>
+    <app-banner [image]="image" (onClick)="receiveResult($event)"></app-banner>
+    <p>{{ result }}</p>
+  </header>
+  <div class="buttonContainer">
+    <button (click)="actionOne()">Função 1</button>
+    <button (click)="actionTwo()">Função 2</button>
+    <button (click)="actionThree()">Incrementar</button>
+    <button (click)="actionFour()">Decrementar</button>
+    <button [routerLink]="['/profile']">Perfil</button>
+  </div>
+
+  <div class="nameContainer">{{ name }} {{ lastName }} {{ year }}</div>
+  <div class="dataDisplayContainer">
+    <app-data-display></app-data-display>
+  </div>
+</main>
